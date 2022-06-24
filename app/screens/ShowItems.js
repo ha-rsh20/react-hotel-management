@@ -31,7 +31,7 @@ const styles = StyleSheet.create({
   },
   item: {
     width: "90%",
-    maxWidth: Platform.OS === "android" ? 250 : "90%",
+    maxWidth: Platform.OS === "android" ? 220 : "90%",
   },
   itemPrice: {
     marginLeft: 5,

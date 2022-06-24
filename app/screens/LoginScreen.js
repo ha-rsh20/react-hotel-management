@@ -18,7 +18,7 @@ function LoginScreen(props) {
       alert("Username or Password should not empty!");
     } else {
       const res = await fetch(
-        "https://test-react-native-13f65-default-rtdb.firebaseio.com/test-react-native.json/users",
+        "https://test-react-native-13f65-default-rtdb.firebaseio.com/test-react-native/users.json",
         {
           method: "POST",
           headers: {
@@ -98,7 +98,6 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
     backgroundColor: "#d3d3d3",
-    padding: 10,
   },
   img: {
     height: 500,

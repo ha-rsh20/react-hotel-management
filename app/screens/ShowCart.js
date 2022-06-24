@@ -20,12 +20,12 @@ const styles = StyleSheet.create({
   },
   itemNo: {
     width: "2%",
-    maxWidth: 20,
-    minWidth: 20,
+    maxWidth: 15,
+    minWidth: 10,
   },
   item: {
     width: "90%",
-    maxWidth: Platform.OS === "android" ? 250 : "90%",
+    maxWidth: Platform.OS === "android" ? 197 : "90%",
   },
   itemPrice: {
     marginLeft: 5,
